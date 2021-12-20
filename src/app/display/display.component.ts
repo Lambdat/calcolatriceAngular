@@ -13,5 +13,5 @@ export class DisplayComponent implements OnInit {
   }
 
   
-  @Input() result = "";
+  @Input() result = ""; //Si aspetta questo valore dal contenitore padre
 }
